@@ -7,6 +7,109 @@
         <link rel="stylesheet" href="C:/Users/W0468734/Documents/GitHub/day8/styles.css">
     </head>
     <body>
-        a
+        <p class="h1">
+            Form by Xander
+        </p>
+        <p>
+            this do be a form tho
+        </p>
+        <form action="mailto:xanderbezanson@gmail.com?subject=Help%20Form" method="post" enctype="text/plain">
+            <table>
+                <tr>
+                    <td class="td1">
+                        <label for="name">
+                            Name:
+                        </label>
+                    </td>
+                    <td class="td2">
+                        <input id="name" type="text" name="Name" minlength="2" required="required">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <label for="age">
+                            Age:
+                        </label>
+                    </td>
+                    <td class="td2">
+                        <input id="age" type="number" name="Age" min="16">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <label for="city">
+                            City:
+                        </label>
+                    </td>
+                    <td class="td2">
+                        <input id="city" type="text" name="City" minlength="2" maxlength="2" placeholder="Ex: TO">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <label>
+                            Phone Number:
+                        </label>
+                    </td>
+                    <td class="td2">
+                        <input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" size="1"/> -
+                        <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" size="1"/> -
+                        <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" size="1"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <label for="movie">
+                            Choose a Colour:
+                        </label>
+                    </td>
+                    <td class="td2">
+                        <input type="color" name="color" id="color">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <label for="province">
+                            Province:
+                        </label>
+                    </td>
+                    <td class="td2">
+                        <select name="province" id="province">
+                            <option value="Alberta">Alberta</option>
+                            <option value="British Columbia">British Columbia</option>
+                            <option value="Manitoba">Manitoba</option>
+                            <option value="New Brunswick">New Brunswick</option>
+                            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                            <option value="Northwest Territories">Northwest Territories</option>
+                            <option value="Nova Scotia">Nova Scotia</option>
+                            <option value="Nunavut">Nunavut</option>
+                            <option value="Ontario">Ontario</option>
+                            <option value="Prince Edward Island">Prince Edward Island</option>
+                            <option value="Quebec">Quebec</option>
+                            <option value="Saskatchewan">Saskatchewan</option>
+                            <option value="Yukon">Yukon</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <label for="date">
+                            Today's Date:
+                        </label>
+                    </td>
+                    <td class="td2">
+                        <input type="date" id="date" name="Today's Date">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <input type="submit" value="Send">
+                    </td>
+                    <td class="td2">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
     </body>
 </html>
